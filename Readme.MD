@@ -1,4 +1,4 @@
-(In progress)
+
 
 Created Empty Activity
 Added to firebase console, download google-services.json but dont click next
