@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "937476061023",
+    "project_id": "promote-your-product-879b3",
+    "storage_bucket": "promote-your-product-879b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937476061023:android:9caa308ed34fe00331e8ea",
+        "android_client_info": {
+          "package_name": "com.akstechies.promoteyourproducts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937476061023-k8alkq7bu1rpsj7bhuc2naa2eqlj4859.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9QO0zB4TH7ZNPxI8FwVExDPWXWQZlta8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937476061023-k8alkq7bu1rpsj7bhuc2naa2eqlj4859.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

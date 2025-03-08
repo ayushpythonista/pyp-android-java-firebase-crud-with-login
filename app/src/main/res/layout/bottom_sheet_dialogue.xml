@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:id="@+id/idTLBottomSheet">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idTVProductName"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:text="Product Name"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/idIVProductImage"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+        android:layout_margin="5dp"
+        android:layout_below="@id/idTVProductName"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idTVProductDescription"
+        android:text="Product Description"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_toRightOf="@id/idIVProductImage"
+        android:layout_below="@id/idTVProductName"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idTVProductSuitedFor"
+        android:text="Product Suited For"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_toRightOf="@id/idIVProductImage"
+        android:layout_below="@id/idTVProductDescription"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idTVProductPrice"
+        android:text="Product Price"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/idIVProductImage"
+        android:layout_below="@id/idTVProductSuitedFor"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_below="@id/idIVProductImage">
+
+        <Button
+            android:id="@+id/idBtnEditProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="Edit Product"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/idBtnViewProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="View Details"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
